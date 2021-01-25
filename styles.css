@@ -10,7 +10,7 @@ body {
   height: 100vh;
   margin: 0;
   background-size: cover;
-  background: url(img/main-background.png) no-repeat center center;
+  background: url(img/main-background.png) no-repeat top left;
 }
 
 .wrapper {
@@ -156,7 +156,7 @@ body {
   }
 
   .main__text {
-    max-width: 35%;
+    max-width: 34%;
   }
 
   .main__text-title {
@@ -281,10 +281,6 @@ body {
 
 
 @media ( max-width: 768px) {
-  body {
-    background-size: cover;
-    background-position: top left;
-  }
 
   .header {
     padding-bottom: 48px;
@@ -350,11 +346,6 @@ body {
 }
 
 @media (max-width: 375px) {
-
-  body {
-    background: url("img/фон 375.png") no-repeat;
-    height: auto;
-  }
 
   .header {
     padding: 42px 0;
