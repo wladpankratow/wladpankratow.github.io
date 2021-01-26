@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Museo_Sans_Cyrl';
-    src: url('MuseoSansCyrl-500.woff') format('woff');
+    src: url("MuseoSansCyrl-500.woff") format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Museo_Sans_Cyrl';
-    src: url('MuseoSansCyrl-300.woff') format('woff');
+    src: url("MuseoSansCyrl-300.woff") format('woff');
     font-weight: 300;
     font-style: normal;
 }
