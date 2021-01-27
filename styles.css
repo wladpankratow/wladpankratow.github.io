@@ -278,10 +278,10 @@ body {
   }
 }
 
-
 @media ( max-width: 768px) {
   .hamburger-menu {
     display: block;
+    z-index: 1;
   }
 
   .menu__btn {
@@ -343,7 +343,6 @@ body {
     margin-bottom: 24px;
   }
 
-
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
@@ -351,11 +350,13 @@ body {
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
+    background-color: #000;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
+    background-color: #000;
   }
 
   #menu__toggle:checked ~ .menu__box {
