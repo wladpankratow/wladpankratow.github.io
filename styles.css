@@ -129,6 +129,7 @@ body {
   margin: 0 auto;
   color: #F8EEE4;
   font: 5.10vw/6.77vw pt_serifbold, arial, helvetica, sans-serif;
+  animation: neon 5s steps(1, start) infinite reverse;
 }
 
 .main__subtitle {
@@ -158,7 +159,7 @@ body {
 
 .content {
   width: 51.5%;
-  padding-top: 6.3%;
+  padding-top: 5.3%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -524,5 +525,39 @@ body {
 
   .content {
     display: none;
+  }
+}
+
+@keyframes neon {
+  0%{
+    color: #9e9e9e;
+    text-shadow: 0 0 7px #9e9e9e, 0 0 8px #9e9e9e;
+  }
+  80%{
+    color: #fff;
+    text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+  }
+  81%{
+    color: #E1F5FE;
+    text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+  }
+  82%{color: #9e9e9e;
+    text-shadow: 0 0 7px #9e9e9e, 0 0 8px #9e9e9e;
+  }
+  83%{
+    color: #E1F5FE;
+    text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+  }
+  84%{
+    color: #9e9e9e;
+    text-shadow: 0 0 7px #9e9e9e, 0 0 8px #9e9e9e;
+  }
+  85%{
+    color: #E1F5FE;
+    text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+  }
+  100%{
+    color: #9e9e9e;
+    text-shadow: 0 0 7px #9e9e9e,0 0 8px #9e9e9e;
   }
 }
